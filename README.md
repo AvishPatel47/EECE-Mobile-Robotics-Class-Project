@@ -1,14 +1,14 @@
 # EECE-Mobile-Robotics-Class-Project
 ## Setup:
-In your remote PC, do the following:
+In your ***Remote PC***, do the following:
 1.  Clone the repository into the ```catkin_ws/src```. This includes the necessary packages such as ```turlebot3_explore```,```turtlebot3_navigation```, ```turtlebot3_slam```,```explore_lite```, and ```apriltag_ros```.
 2. Go to ```catkin_ws``` and ```catkin_make```.
 3. Source the workspace using ```source devel/setup.bash```
 
-In your Turtlebot3, do the following:
+In your ***Turtlebot3***, do the following:
 1. ```SSH``` into your raspberrypi of your turtlebot from your remote PC by entering ```sudo ssh ubuntu@ip_address```. Enter the password when required.
 2. Install cv_camera package using ```sudo apt install ros-noetic-cv-camera```.
-4. Calibrate the camera by following the instructions.
+4. Calibrate the camera by following the instructions on http://wiki.ros.org/camera_calibration.
 5. Source the ```catkin_ws``` using ```source devel/setup.bash```
 
 
