@@ -23,6 +23,7 @@ For **Turtlebot3**, execute following:
 >*For each step it is required to be implemented in the new terminal window and followed by`SSH` command to get into the robot's system*
 1. To bringup the Turtlebot, run ```roslaunch turtlebot3_bringup turtlebot3_robot.launch```
 2. To launch the Camera, run ```roslaunch turtlebot3_bringup turtlebot3_rpicamera.launch```
+
 In **RemotePC**, execute following:
 > For autonomous exploration and ocupancy grid mapping:
 1. To implement *move_base*, run ```roslaunch turtlebot3_navigation move_base.launch```
